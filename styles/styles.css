@@ -691,7 +691,7 @@ footer {
     z-index: -1;
   }
   .navegacion-fondo-imagen {
-    background-image: url(/assets/tours/arg/01_arg.jpeg);
+    /* background-image: url(/assets/tours/arg/01_arg.jpeg); */
     height: 735px;
     background-size: cover;
     background-repeat: no-repeat;

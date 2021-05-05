@@ -101,7 +101,7 @@ function displayAllCards(e) {
   console.log(resultsArray);
   resultsArray.forEach((tour, i) => {
     cardsSection.innerHTML += `
-      <div class="tour-card tour-card-${i + 1}" 
+      <div class="tour-card tour-card-${i + 1}" data-tourID="${tour.id}"
         style="background:#fff url(${tour.img}) no-repeat center;">
         <div class="card-content">
           <div class="first-content">
