@@ -3,12 +3,14 @@ header {
     max-width: 1200px;
     height: 400px;
     position: relative;
-    background-color: #fff;
     padding: 0 20px;
     display: flex;
+    z-index: 1;
 }
 header h1 {
+    font-size: 44px;
     color: var(--secondary-background);
+    font-weight: var(--h2-font-weight);
 }
 header img {
     width: 100%;
@@ -71,20 +73,12 @@ slides are different color to show as different slides for training purposes;
 images can be used instead
 */
 
-.slide:nth-child(1) {
-    background-color: #fff;
-}
-.slide:nth-child(2) {
-    background-color: #fff;
-}
-.slide:nth-child(3) {
-    background-color: #fff;
-}
-.slide:nth-child(4) {
-    background-color: #fff;
-}
+.slide:nth-child(1),
+.slide:nth-child(2),
+.slide:nth-child(3),
+.slide:nth-child(4),
 .slide:nth-child(5) {
-    background-color: #fff;
+    background-color: white;
 }
 
 .controls {
@@ -129,8 +123,6 @@ i {
 }
 
 @media (min-width: 564px) and (max-width: 769px) {
-    header {
-    }
     header img {
         width: 70%;
         display: flex;
